@@ -25,6 +25,7 @@ pi = "Pumpkin"
 
 print(pi)
 
+#These are the 3 different options for inputs!
 name = input("What is your name?\n")
 
 quest = input("What is your quest: ")
