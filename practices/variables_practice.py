@@ -10,3 +10,4 @@ big_num = 9999999999999999999
 fav_sub = input("What is your favorite subject in school? ")
 
 print(fav_sub)
+print(big_num)
