@@ -7,3 +7,4 @@ age = 86498749879879849687684156436156846
 
 small_num = 10
 big_num = 9999999999999999999
+fav_sub = input("What is your favorite subject in school? ")
