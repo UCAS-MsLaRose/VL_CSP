@@ -11,7 +11,7 @@ sentence = "The quick brown fox jumps over the lazy dog."
 
 print("Welcome to my program", full_name + "!")
 print(sentence.find("brown"))
-print(sentence[10:15])
+print(sentence[10:15]) #slice
 
 # Debugging is fixing problems in my code!
     # Syntax Error
