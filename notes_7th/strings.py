@@ -5,13 +5,28 @@ first_name = input("What is your first name:\n").strip().title()
 
 last_name = input("What is your last name:\n").strip().title()
 
-full_name = first_name + " " + last_name
+full_name = first_name + " " + last_name #Concatenation 
 
-sentence = '        The quick brown fox jumps over the lazy dog.       '
-print(sentence.strip())
+sentence = 'The quick brown fox jumps over the lazy dog.'.strip()
 
+print(sentence.find("jumps"))
+print(sentence[20:25]) #slicing
+print(sentence[sentence.find("lazy"): len("lazy")+sentence.find("lazy")])
+print(len(first_name)) #finds length of string
 print("Welcome to my program", full_name + "!")
 
 # Sanitization and stupid proofing! 
 
+
 # Debugging is fixing code!
+    # Syntax Error - 
+#error = "This is a bug'
+    # Logic Error - 
+numOne = "1"
+numTwo = "2"
+print(numOne+numTwo)
+
+    # Run-Time Error
+
+num = 3
+#print("My favorite number is"+num)
