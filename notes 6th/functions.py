@@ -24,6 +24,7 @@ num_two = 14
 #add(87, 45)
 
 def clean(info):
+    info = "This is the "
     return info.strip().lower()
 
 name = input("What is your name?")
