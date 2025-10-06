@@ -10,9 +10,10 @@ int main(void){
     //User input
     printf("What is your grade percentage as a whole number: ");
     scanf("%d", &grade);
+    //while (getchar() != '\n'); 
 
     printf("What is your letter grade: ");
-    scanf(" %c", &letter_grade);
+    scanf("%c", &letter_grade);
 
     printf("%s did it!\n", name);
     printf("You have a %d, in the class. That is an %c\n", grade, letter_grade);
