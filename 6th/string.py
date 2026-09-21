@@ -11,6 +11,7 @@ user = input("Please tell me your name:\n").strip().title()
 print(f"New user recognized\nWelcome {user}")
 
 sentence = "The quick brown fox jumped over the lazy dog."
+
 print(f"The sentence is {len(sentence)} characters long.")
 print(sentence)
 print(sentence.replace("dog", name))
